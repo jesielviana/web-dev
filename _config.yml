@@ -1,0 +1,86 @@
+title: Programação para Internet I
+author: jesielviana
+email: jesiel@ifpi.edu.br
+description: > # this means to ignore newlines until "show_exerpts:"
+  Disciplina de Programação para Internet I do Curso Superior de 
+  Tecnologia em Análise e Desenvolvimento de Sistemas do IFPI Campus Picos
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Programação para Internet I
+  tagline: |
+    IFPI Campus Picos
+    ADS 2020.1
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  analytics_id: UA-147295746-1
+  disqus_shortname: programacao-para-internet-i # jesiel@ifpi.edu.br
+  navigation:
+    - title: Aulas
+      url: "/programacao-para-internet-i/aulas"
+    - title: Atividades
+      url: "/programacao-para-internet-i/atividades"
+    - title: Projetos
+      url: "/programacao-para-internet-i/projetos"
+    - title: Blog
+      url: "/programacao-para-internet-i/blog"
+
+  # generate social links in footer
+  social_links:
+    twitter: jesielviana
+    github:  jesielviana
+    linkedIn: in/jesielviana
+    # rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: plainwhite
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-pwa-plugin
+  - jekyll-feed
+
+baseurl: "/programacao-para-internet-i"
+
+
+pwa:
+  enabled: false # Optional
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"

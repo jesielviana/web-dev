@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Introdução a HTML</title>
+	<meta name="description" content="Conheça a liguagem de marcação HTML e entenda como utiliza-la para desenvolvimento de página Web.">
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/reveal.css" />
+	<link rel="stylesheet" href="css/theme/white.css" id="theme" />
+	<link rel="stylesheet" href="lib/css/atom-one-light.css" id="code-theme" />
+	<link rel="stylesheet" href="css/custom.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="settings">
+			<button class="btn-print" onclick="printPDF()">
+				<img src="img/print.svg" alt="print" />
+			</button>
+			<button class="change-theme" onclick="changeTheme()">
+				<img src="img/color.svg" alt="color" />
+			</button>
+		</div>
+		<div class="slides">
+			<!-- background colors 
+			data-background-color="#6300C8"  4d7e65  b5533c
+			414141 61BC88 8D6E63 F07268 5E9AC0 F19B2C
+			-->
+			<section data-background="#4d7e65">
+				<h1>Introdução a HTML</h1>
+				<h3 class="opacity60">Projeto Supervisionado</h3>
+				<p>
+					Prof. Jesiel Viana
+				</p>
+			</section>
+
+			<section data-markdown>
+				# Objetivos
+				Conhecer a liguagem de marcação HTML e 
+				entender como utiliza-la para desenvolvimento de página Web.
+			</section>
+
+			<section data-markdown>
+				## Contexto 
+				Web: documentos em hipermídia que podem ser interligados
+			</section>
+
+			<section data-markdown>
+				## Problema 
+				Um formato de documento que permita adicionar texto,
+				imagens, vídeos, etc de forma padronizada o mais simples possível e
+				que possam ser interligados.
+			</section>
+
+			<section data-markdown>
+				# Hypertext Markup Language - HTML
+			</section>
+
+			<section data-markdown>
+				## HTML 
+				É uma linguagem de marcação, formada por um conjunto de ***tags***
+			</section>
+
+			<section>
+				<h3>Estrutua básica de uma Página HTML</h3>
+				<pre><code class="html" data-trim data-line-numbers="1|2,10|3-5|7-9">
+						&lt;!DOCTYPE html&gt;
+						&lt;html&gt;
+						  &lt;head&gt;
+						   <!--configurações da página (não é vísivel)-->
+						  &lt;/head&gt;
+
+						  &lt;body&gt;
+						   <!--conteúdo visível da página -->
+						  &lt;/body&gt;
+						&lt;/html&gt;
+				</code></pre>
+			</section>
+
+			<section data-background="#61BC88">
+				<h3>Exemplo de página Web</h3>
+				<div class="web-page">
+						<h5>Projeto Supervisionado</h5>
+						<small>Disciplina do IV módulo curso do Técnico em Informática
+							 do Instituto Federal do Piauí - Campus Picos</small>
+				</div>
+			</section>
+
+			<section>
+				<h3>Código HTML para exibir a página anterior</h3>
+				<pre><code rel="index.html" class="html" data-trim data-line-numbers="7,8">
+						&lt;!DOCTYPE html&gt;
+						&lt;html&gt;
+						 &lt;head&gt;
+						  <!--configurações da página (não é vísivel)-->
+						 &lt;/head&gt;
+						 &lt;body&gt;
+					   &lt;h1&gtProjeto Supervisionado&lt;/h1&gt;
+						  &lt;p&gtDisciplina do IV módulo curso do Técnico em Informática do Instituto Federal do Piauí - Campus Picos &lt;/p&gt;
+						 &lt;/body&gt;
+						&lt;/html&gt;
+				</code></pre>
+			<small class="red">
+				OBS: todo arquivo/documento HTML deve ser salvo com a extensão 
+				<b><i>.html</b></i> (<b><i>nomearquivo.html</i></b>) </small>	
+			</section>
+
+			<section>
+				<h3>Anatomia de uma elemento HTML</h3>
+				<img src="img/aulas/tag-html.png"  alt="">
+				<p class="violet">Uma página Web é formada por um conjunto de elementos</p>
+			</section>
+
+			<section data-markdown="">
+				## Vamos praticar!!!
+				Vamos começar criando um site pessoal, um site sobre você.
+			</section>
+
+			<section data-markdown="">
+				## Ferramentas do desenvolvedor
+				- Computador
+				- Navegador Web (Chrome, Firefox, etc)
+				- Editor de texto 
+					- [Visual Studio Code](https://code.visualstudio.com/)
+					- [Codepen](https://codepen.io/) (Editor Online)
+					- [Repl.it](https://repl.it/)
+			</section>
+
+			<section data-markdown="">
+				## Começando
+				- Sobre o que é seu site?
+				- Quais informações você vai colocar no site (textos, imagens, etc)?
+				- Como será seu site (cor de fundo, fonte, alihamento)?
+			</section>
+
+
+			<section>
+				<div class="two-column">
+					<div class="item">
+					<h3>Rascunhando seu design</h3>
+				<p class="blue">Pegue papel e caneta e faça um rascunho de como 
+					você deseja o modelo do seu site.</p>
+					</div>
+				<img class="item" src="img/aulas/rascunho.jpeg" alt="">
+			</div>
+			</section>
+
+			<section>
+				<h2>Código HTML da minha página</h2>
+				<pre><code rel="index.html" class="html" data-trim>
+					&lt;!DOCTYPE html&gt;
+					&lt;html lang="pt-br"&gt;
+					 &lt;head&gt;
+					  &lt;title&gt;Jesiel Viana&lt;/title&gt;
+					 &lt;/head&gt;
+					 &lt;body&gt;
+					  &lt;header&gt;
+					   &lt;img src="https://pbs.twimg.com/profile_images/1254857099391238144/gpdJCD7R_400x400.jpg"&gt;
+					   &lt;h1&gt;Jesiel Viana&lt;/h1&gt;
+					  &lt;/header&gt;
+					  &lt;main&gt;
+					   &lt;h2&gt;Formação&lt;/h2&gt;
+					   &lt;p&gt;&lt;b&gt;Graduação:&lt;/b&gt; Sistemas de Informação&lt;/p&gt;
+					   &lt;h2&gt;Experência&lt;/h2&gt;
+					   &lt;ul&gt;
+					    &lt;li&gt;Programador&lt;/li&gt;
+					    &lt;li&gt;Professor&lt;/li&gt;
+					   &lt;/ul&gt;
+					  &lt;/main&gt;
+					  &lt;footer&gt;
+					   2020 - @jesielviana 
+					  &lt;/footer&gt;
+					 &lt;/body&gt;
+					&lt;/html&gt;
+			</code></pre>
+			</section>
+
+			<section data-markdown="">
+				## Atividade
+				1. Faça o rascunho da sua página Web pessoal
+				1. Envie o rascunho da sua página para o Google Classroom
+				1. Escreva o código HTML da sua página
+				1. Envie o código HTML da sua página para o Google Classroom
+			</section>
+
+			<section data-markdown="">
+				## Referências
+				- [Com será o seu site?](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/com_que_seu_site_vai_parecer)
+				- [Quais ferramentas os profissionais usam?](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/instalando_programas_basicos)
+				- [HTML Básico](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/HTML_basico)
+				- [Elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
+				- [Apostila Caelum - Introdução a HTML e CSS](https://www.caelum.com.br/apostila-html-css-javascript/introducao-a-html-e-css/)
+			</section>
+
+			<section data-background="#b5533c">
+				<h2>Introdução a HTML</h2>
+				<h4 class="opacity60">Projeto Supervisionado</h4>
+				<p>
+					<small>Prof. @jesielviana</small>
+				</p>
+				<h1>Fim!</h1>
+			</section>
+
+		</div>
+	</div>
+	<script src="js/reveal.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
