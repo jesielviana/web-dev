@@ -28,7 +28,12 @@ date:   2020-03-04 21:03:36 +0530
 
 ### Aula 04: Introdução à CSS
 - Leituras:
-- Slides:
+  - [O que é CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/O_que_e_CSS)
+  - [Sintaxe do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/sintaxe)
+  - [Iniciando com CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Iniciando)
+  - [Propriedades CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference)
+  - [Propriedades CSS (em inglês)](https://www.w3schools.com/css/default.asp)
+- Slides: [Introdução a CSS](/programacao-para-internet-i/slides/aula-04)
 - Atividades:
 
 ### Aula 05: Páginas Web elegantes com HTML5 e CSS3
