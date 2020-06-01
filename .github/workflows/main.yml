@@ -1,9 +1,6 @@
-name: Jekyll Deploy
+name: Jekyll Build & Deploy to GitHub Pages
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
 
 jobs:
   build_and_deploy:
@@ -11,13 +8,6 @@ jobs:
     steps:
       - name: GitHub Checkout
         uses: actions/checkout@v1
-      - name: Bundler Cache
-        uses: actions/cache@v1
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
       - name: Build & Deploy to GitHub Pages
         uses: joshlarsen/jekyll4-deploy-gh-pages@master
         env:
