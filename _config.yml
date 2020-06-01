@@ -4,7 +4,7 @@ email: jesiel@ifpi.edu.br
 description: > # this means to ignore newlines until "show_exerpts:"
   Disciplina de Programação para Internet I do Curso Superior de 
   Tecnologia em Análise e Desenvolvimento de Sistemas do IFPI Campus Picos
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
