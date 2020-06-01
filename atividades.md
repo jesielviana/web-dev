@@ -4,19 +4,32 @@ title: Atividades
 ---
 
 ## Atividade 1
-
-Responder o teste de personalidade disponível no link [https://www.16personalities.com/br/teste-de-personalidade](https://www.16personalities.com/br/teste-de-personalidade) e enviar o resultado pelo Campuswire.
+- Enviar email para receber convite do Campuswire por meio do formulário [https://forms.gle/RFUTfuvfhy5rcACC8](https://forms.gle/RFUTfuvfhy5rcACC8);
+- Fazer cadastro no Campuswire;
+- Responder o teste de personalidade disponível no link [https://www.16personalities.com/br/teste-de-personalidade](https://www.16personalities.com/br/teste-de-personalidade) e enviar o resultado pelo Campuswire.
 
 ---
 
 ## Atividade 2
 
-[Questionário online](https://forms.gle/9n6yny931PTXfqbr9)
+Responder questionário online no link: [https://forms.gle/9n6yny931PTXfqbr9](https://forms.gle/9n6yny931PTXfqbr9)
 
 ---
 
 ## Atividade 3
 
-[Questionário online](https://forms.gle/jsrEtxNtrJSZYFxAA)
+1. Desenhe o rascunho com papel e caneta da sua página Web pessoal
+1. Escreva o código HTML da sua página com o conteúdo dela. Neste momento
+não se preocupe a design visual, simplemente adicione o conteúdo da página.
+
+---
+
+## Atividade 4
+
+Escreva o código CSS da sua página para deixar o layout dela similar ao layout do seu rascunho. 
+Não se esqueça de fazer a integração entre o arquivo CSS e a sua página HTML.
+  1. Faça por partes, primeiro adicione as cores de fundo e cores dos textos;
+  1. Depois ajuste os elementos principais: imagens, topo, centro, rodapé..caso existam;
+  1. Por último, foque nos detalhes de cada elemento.
 
 ---

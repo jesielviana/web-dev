@@ -9,7 +9,7 @@ date:   2020-03-04 21:03:36 +0530
   - [Descrição do Curso](/) 
   - [Começando na Web](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web)
 - Slides: [Apresentação](/programacao-para-internet-i/slides/aula-01)
-- Atividades: [Atividade inicial](/programacao-para-internet-i/atividades/#atividade-0)
+- Atividades: [Atividade inicial](/programacao-para-internet-i/atividades/#atividade-1)
 
 ### Aula 02: Introdução a Web
 - Leituras obrigatória: 
@@ -24,7 +24,7 @@ date:   2020-03-04 21:03:36 +0530
   - [Lidando com arquivos](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/lidando_com_arquivos) 
   - [HTML básico](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/HTML_basico)
 - Slides: [Introdução a HTML](/programacao-para-internet-i/slides/aula-03)
-- Atividades:
+- Atividades: [Atividade 03](/programacao-para-internet-i/atividades/#atividade-3)
 
 ### Aula 04: Introdução à CSS
 - Leituras:
@@ -34,15 +34,21 @@ date:   2020-03-04 21:03:36 +0530
   - [Propriedades CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference)
   - [Propriedades CSS (em inglês)](https://www.w3schools.com/css/default.asp)
 - Slides: [Introdução a CSS](/programacao-para-internet-i/slides/aula-04)
+- Atividades: [Atividade 04](/programacao-para-internet-i/atividades/#atividade-4)
+
+
+### Aula 05: Trabalho colaborativo e controle de versão
+- Leituras:
+- Slides:
 - Atividades:
 
-### Aula 05: Páginas Web elegantes com HTML5 e CSS3
+### Aula 06: Páginas Web elegantes com HTML5 e CSS3
 - Leituras:
 - Slides:
 - Atividades:
 
 
-### Aula 06: Como a Web funciona?
+### Aula 07: Como a Web funciona?
 - Leituras obrigatórias: 
   - [Como a Web funciona [by MDN]?](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/Como_a_Web_funciona)
   - [Como a Web funciona? [by Tableless]](https://tableless.com.br/como-funciona-internet-e-world-wide-web/)
@@ -51,7 +57,7 @@ date:   2020-03-04 21:03:36 +0530
 - Slides: [Como a Web funciona]
 - Atividades: [Questionário online](https://forms.gle/jsrEtxNtrJSZYFxAA)
 
-### Aula 07: Entendendo o protocolo HTTP
+### Aula 08: Entendendo o protocolo HTTP
 - Leituras obrigatórias:
   - [Visão geral do HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview)
   - [Cabeçalhos HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Headers)
@@ -61,12 +67,6 @@ date:   2020-03-04 21:03:36 +0530
   - [Como HTTPS funciona? [em inglês]](https://howhttps.works/)
 - Slides:
 - Atividades:
-
-### Aula 08: Trabalho colaborativo e controle de versão
-- Leituras:
-- Slides:
-- Atividades:
-
 
 ### Aula 09: Web Design Responsivo
 - Leituras:
