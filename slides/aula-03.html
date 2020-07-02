@@ -1,32 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<title>Introdução a HTML</title>
-	<meta name="description" content="Conheça a liguagem de marcação HTML e entenda como utiliza-la para desenvolvimento de página Web.">
-	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="css/reveal.css" />
-	<link rel="stylesheet" href="css/theme/white.css" id="theme" />
-	<link rel="stylesheet" href="lib/css/atom-one-light.css" id="code-theme" />
-	<link rel="stylesheet" href="css/custom.css" />
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Introdução a CSS</title>
+	<meta name="description" content="Conheça a liguagem de estilo CSS e entenda como utiliza-la para desenvolvimento de página Web.">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+	<link rel="stylesheet" href="lib/css/atom-one-light.css" id="code-theme">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 
 <body>
 	<div class="reveal">
 		<div class="settings">
 			<button class="btn-print" onclick="printPDF()">
-				<img src="img/print.svg" alt="print" />
+				<img src="img/print.svg" alt="print">
 			</button>
 			<button class="change-theme" onclick="changeTheme()">
-				<img src="img/color.svg" alt="color" />
+				<img src="img/color.svg" alt="color">
 			</button>
 		</div>
 		<div class="slides">
 			<section data-background="#4d7e65">
-				<h1 class="text-title">Introdução a HTML</h1>
+				<h1 class="text-title">Introdução a CSS</h1>
 				<p class="text-autor">
 					Prof. Jesiel Viana 
 				</p>
@@ -35,174 +34,138 @@
 
 			<section data-markdown>
 				# Objetivos
-				Conhecer a liguagem de marcação HTML e 
+				Conhecer a liguagem de estilo CSS e 
 				entender como utiliza-la para desenvolvimento de página Web.
 			</section>
 
 			<section data-markdown>
 				## Contexto 
-				Web: documentos em hipermídia que podem ser interligados
+				Páginas Web
 			</section>
 
 			<section data-markdown>
-				## Problema 
-				Um formato de documento que permita adicionar texto,
-				imagens, vídeos, etc de forma padronizada o mais simples possível e
-				que possam ser interligados.
+				## Problema
+				HTML é uma liguagem para estruturação de conteúdo, porém é muito pobre em design.
+				Portanto, como criar páginas Web bonitas, que chamem atenção?
 			</section>
 
 			<section data-markdown>
-				# Hypertext Markup Language - HTML
+				# Cascading Style Sheets - CSS
 			</section>
 
 			<section data-markdown>
-				## HTML 
-				É uma linguagem de marcação, formada por um conjunto de ***tags***
+				## O CSS formata a informação entregue pelo HTML. 
+				Essa informação pode ser qualquer coisa: imagem, texto, vídeo, áudio ou qualquer outro elemento criado. 
 			</section>
 
 			<section>
-				<h3>Estrutua básica de uma Página HTML</h3>
-				<pre><code class="html" data-trim data-line-numbers="1|2,10|3-5|7-9">
-						&lt;!DOCTYPE html&gt;
-						&lt;html&gt;
-						  &lt;head&gt;
-						   <!--configurações da página (não é vísivel)-->
-						  &lt;/head&gt;
-
-						  &lt;body&gt;
-						   <!--conteúdo visível da página -->
-						  &lt;/body&gt;
-						&lt;/html&gt;
-				</code></pre>
-			</section>
-
-			<section data-background="#61BC88">
-				<h3>Exemplo de página Web</h3>
-				<div class="web-page">
-						<h5>Projeto Supervisionado</h5>
-						<small>Disciplina do IV módulo curso do Técnico em Informática
-							 do Instituto Federal do Piauí - Campus Picos</small>
-				</div>
-			</section>
-
-			<section>
-				<h3>Código HTML para exibir a página anterior</h3>
-				<pre><code rel="index.html" class="html" data-trim data-line-numbers="7,8">
-						&lt;!DOCTYPE html&gt;
-						&lt;html&gt;
-						 &lt;head&gt;
-						  <!--configurações da página (não é vísivel)-->
-						 &lt;/head&gt;
-						 &lt;body&gt;
-					   &lt;h1&gtProjeto Supervisionado&lt;/h1&gt;
-						  &lt;p&gtDisciplina do IV módulo curso do Técnico em Informática do Instituto Federal do Piauí - Campus Picos &lt;/p&gt;
-						 &lt;/body&gt;
-						&lt;/html&gt;
-				</code></pre>
-			<small class="red">
-				OBS: todo arquivo/documento HTML deve ser salvo com a extensão 
-				<b><i>.html</b></i> (<b><i>nomearquivo.html</i></b>) </small>	
-			</section>
-
-			<section>
-				<h3>Anatomia de uma elemento HTML</h3>
-				<img src="img/aulas/tag-html.png"  alt="">
-				<p class="violet">Uma página Web é formada por um conjunto de elementos</p>
+				<h2>Sintaxe do CSS</h2>
+				<img src="img/aulas/css-sintaxe.png" alt="">
+				<small>{} (chaves) determina o inicio e o fim de um bloco</small>
+				<small>: (dois pontos) separa a propriedade do valor</small><br>
+				<small>; (ponto e vírgula) encerra uma declaração</small><br>
+				<small class="red">Ambos são obrigatórios</small>
 			</section>
 
 			<section data-markdown="">
 				## Vamos praticar!!!
-				Vamos começar criando um site pessoal, um site sobre você.
-			</section>
-
-			<section data-markdown="">
-				## Ferramentas do desenvolvedor
-				- Computador
-				- Navegador Web (Chrome, Firefox, etc)
-				- Editor de texto 
-					- [Visual Studio Code](https://code.visualstudio.com/)
-					- [Codepen](https://codepen.io/) (Editor Online)
-					- [Repl.it](https://repl.it/)
-			</section>
-
-			<section data-markdown="">
-				## Começando
-				- Sobre o que é seu site?
-				- Quais informações você vai colocar no site (textos, imagens, etc)?
-				- Como será seu site (cor de fundo, fonte, alihamento)?
-			</section>
-
-
-			<section>
-				<div class="two-column">
-					<div class="item">
-					<h3>Rascunhando seu design</h3>
-				<p class="blue">Pegue papel e caneta e faça um rascunho de como 
-					você deseja o modelo do seu site.</p>
-					</div>
-				<img class="item" src="img/aulas/rascunho.jpeg" alt="">
-			</div>
+				Vamos começar melhorando o design visual da página criada na aula anterior\
+				[Link do código HTML da aula anterior](https://github.com/jesielviana/projeto-supervisionado/blob/master/aula-03/index.html)
 			</section>
 
 			<section>
-				<h2>Código HTML da minha página</h2>
-				<pre><code rel="index.html" class="html" data-trim>
-					&lt;!DOCTYPE html&gt;
-					&lt;html lang="pt-br"&gt;
-					 &lt;head&gt;
-					  &lt;title&gt;Jesiel Viana&lt;/title&gt;
-					 &lt;/head&gt;
-					 &lt;body&gt;
-					  &lt;header&gt;
-					   &lt;img src="https://pbs.twimg.com/profile_images/1254857099391238144/gpdJCD7R_400x400.jpg"&gt;
-					   &lt;h1&gt;Jesiel Viana&lt;/h1&gt;
-					  &lt;/header&gt;
-					  &lt;main&gt;
-					   &lt;h2&gt;Formação&lt;/h2&gt;
-					   &lt;p&gt;&lt;b&gt;Graduação:&lt;/b&gt; Sistemas de Informação&lt;/p&gt;
-					   &lt;h2&gt;Experência&lt;/h2&gt;
-					   &lt;ul&gt;
-					    &lt;li&gt;Programador&lt;/li&gt;
-					    &lt;li&gt;Professor&lt;/li&gt;
-					   &lt;/ul&gt;
-					  &lt;/main&gt;
-					  &lt;footer&gt;
-					   2020 - @jesielviana 
-					  &lt;/footer&gt;
-					 &lt;/body&gt;
-					&lt;/html&gt;
+				<h2>O que vamos fazer?</h2>
+				<p class="blue">Vamos deixar a página com a cor de fundo <b>verde</b> e o texto <b>branco</b></p>
+			
+			</section>
+
+			<section>
+				<h2>Crie um arquivo CSS com o código abaixo</h2>
+				<pre><code rel="estilo.html" class="css" data-trim >
+				body {
+				 background-color: #4d7e65;
+				 color: white;
+				}
 			</code></pre>
+			</section>
+
+			<section>
+				<h2>Como integrar o CSS ao HTML</h2>
+				<p>Importe o arquivo <b><i class="green">estilo.css</i></b> para dentro da página HTML. 
+					A importação deve ser feita dentro da tag <i>&lt;head&gt;</i> do arquivo HTML, conforme abaixo.</p>
+				<pre><code rel="index.html" class="css" data-trim data-line-numbers="5">
+					&lt;!DOCTYPE html&gt;
+					&lt;html&gt;
+					 &lt;head&gt;
+					  ...
+					  <link href="estilo.css" rel="stylesheet"/>
+					 &lt;/head&gt;
+
+					 &lt;body&gt;
+					  ...
+			</code></pre>
+			</section>
+
+			<section>
+				<h3>Deixando nossa página mais bonita com CSS</h3>
+				<pre><code rel="estilo.html" class="css" data-trim >
+					body {
+					 background-color: #4d7e65; /* cor de fundo  */
+					 color: white; /* cor da fonte  */
+					 font-family: Verdana, sans-serif; 	/* fonte do texto  */
+					 font-size: 16px; /* tamanho da fonte  */
+					}
+
+					header {
+					 width: 100%; /* largura do elemento  */
+					 height: 300px; /* altura do elemento  */
+					 border: 1px solid #000; /* largura, tipo e cor da borda do elemento */
+					}
+
+					header img{
+					 width: 200px;
+					 border-radius: 50%;
+					}
+				 
+					main{
+					 min-height: 400px;
+					}
+				 
+					footer{
+					 border: 1px solid #fff; /* largura, tipo e cor da borda do elemento */
+					 height: 100px;
+					 text-align: center;
+					}
+				</code></pre>
 			</section>
 
 			<section data-markdown="">
 				## Atividade
-				1. Faça o rascunho da sua página Web pessoal
-				1. Envie o rascunho da sua página para o Google Classroom
-				1. Escreva o código HTML da sua página
-				1. Envie o código HTML da sua página para o Google Classroom
+				1. Escreva o código CSS da sua página conforme o layout do seu rascunho
+				1. Integre o código CSS com a código HTML
+				1. Envie o código CSS e o código HTML da sua página para o Google Classroom
 			</section>
 
 			<section data-markdown="">
 				## Referências
-				- [Com será o seu site?](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/com_que_seu_site_vai_parecer)
-				- [Quais ferramentas os profissionais usam?](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/instalando_programas_basicos)
-				- [HTML Básico](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/HTML_basico)
-				- [Elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)
+				- [O que é CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/O_que_e_CSS)
+				- [Sintaxe do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/sintaxe)
+				- [Iniciando com CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Iniciando)
+				- [Propriedades CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference)
+				- [Propriedades CSS (em inglês)](https://www.w3schools.com/css/default.asp)
 				- [Apostila Caelum - Introdução a HTML e CSS](https://www.caelum.com.br/apostila-html-css-javascript/introducao-a-html-e-css/)
 			</section>
-
+			
 			<section data-background="#b5533c">
-				<h1 class="text-title">Introdução a HTML</h1>
+				<h1 class="text-title">Introdução a CSS</h1>
 				<h2 class="contact">
 					@jesielviana
 				</h2>
 				<h1 class="text-dark">Fim!</h1>
 			</section>
-
 		</div>
 	</div>
 	<script src="js/reveal.js"></script>
 	<script src="js/main.js"></script>
 </body>
-
 </html>
