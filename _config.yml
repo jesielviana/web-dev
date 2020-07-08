@@ -26,8 +26,8 @@ plainwhite:
       url: "/programacao-para-internet-i/atividades"
     - title: Projetos
       url: "/programacao-para-internet-i/projetos"
-    - title: Blog
-      url: "/programacao-para-internet-i/blog"
+    - title: Podcast
+      url: "https://anchor.fm/b-a-ba-do-dev"
 
   # generate social links in footer
   social_links:
