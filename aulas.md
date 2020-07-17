@@ -12,6 +12,8 @@ date:   2020-03-04 21:03:36 +0530
 - Atividades: [Atividade inicial](/programacao-para-internet-i/atividades/#atividade-1)
 
 ### Aula 01: Introdução a Web
+- Podcast
+  - [#1 - Surgimento da Internet e da Web](https://anchor.fm/babadodev/episodes/1---Surgimento-da-Internet-e-da-Web-egohdq)
 - Leituras obrigatória: 
   - [Como a Internet Funciona?](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Como_a_internet_funciona)
 - Slides: [Introdução a Web](/programacao-para-internet-i/slides/aula-01)
