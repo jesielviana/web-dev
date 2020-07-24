@@ -39,7 +39,7 @@ date:   2020-03-04 21:03:36 +0530
 - Atividades: [Atividade 03](/programacao-para-internet-i/atividades/#atividade-3)
 
 
-### Aula 04: Trabalho colaborativo e controle de versão
+### Aula 04: Trabalho colaborativo e controle de versão (Continuous Integration)
 - Leituras:
 - Slides:
 - Atividades:
@@ -87,50 +87,39 @@ date:   2020-03-04 21:03:36 +0530
 - Slides:
 - Atividades:
 
-### Aula 11: Trabalhando com Javascript Orientado a Objetos
+### Aula 11: Entendendo o Javascript assíncrono: callback, promise e async await
 - Leituras:
 - Slides:
 - Atividades:
 
-### Aula 12: Entendendo o Javascript assíncrono: callback, promise e async await
+### Aula 12: Manipulando o DOM (Document Objetc Model)
 - Leituras:
 - Slides:
 - Atividades:
 
-### Aula 13: Manipulando o DOM (Document Objetc Model)
-- Leituras:
-- Slides:
-- Atividades:
-
-### Aula 14: Trabalhando com formulários na Web
+### Aula 13: Trabalhando com formulários na Web
 - Leituras:
   - [Usabilidade em fomulários](https://ux.sapo.pt/usabilidade/web/formularios/)
 - Slides:
 - Atividades:
 
-### Aula 15: Consumindo APIs com fetch
+### Aula 14: Consumindo APIs com fetch
 - Leituras:
 - Slides:
 - Atividades:
 
+### Aula 15: Testes automatizados
+- Leituras:
+- Slides:
+- Atividades:
 
-### Aula 16: Segurança na Web
+### Aula 16: Continuous Delivery
+- Leituras:
+- Slides:
+- Atividades:
+
+### Aula 17: Segurança na Web
 - Leituras:
   - [Cartilha de segurança na Web](https://cartilha.cert.br/)
-- Slides:
-- Atividades:
-
-### Aula 17: Testes automatizados [parte 1]
-- Leituras:
-- Slides:
-- Atividades:
-
-### Aula 18: Testes automatizados  [parte 2]
-- Leituras:
-- Slides:
-- Atividades:
-
-### Aula 19: Práticas DevOps
-- Leituras:
 - Slides:
 - Atividades:
