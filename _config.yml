@@ -18,14 +18,14 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   analytics_id: UA-147295746-1
-  disqus_shortname: programacao-para-internet-i # jesiel@ifpi.edu.br
+  disqus_shortname: web-dev # jesiel@ifpi.edu.br
   navigation:
     - title: Aulas
-      url: "/programacao-para-internet-i/aulas"
+      url: "/web-dev/aulas"
     - title: Atividades
-      url: "/programacao-para-internet-i/atividades"
+      url: "/web-dev/atividades"
     - title: Projetos
-      url: "/programacao-para-internet-i/projetos"
+      url: "/web-dev/projetos"
     - title: Podcast
       url: "https://anchor.fm/babadodev"
 
@@ -68,7 +68,7 @@ plugins:
   - jekyll-pwa-plugin
   - jekyll-feed
 
-baseurl: "/programacao-para-internet-i"
+baseurl: "/web-dev"
 
 
 pwa:

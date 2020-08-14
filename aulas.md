@@ -8,15 +8,15 @@ date:   2020-03-04 21:03:36 +0530
 - Leitura obrigatória: \
   - [Descrição do Curso](/) 
   - [Começando na Web](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web)
-- Slides: [Apresentação](/programacao-para-internet-i/slides/aula-00)
-- Atividades: [Atividade inicial](/programacao-para-internet-i/atividades/#atividade-1)
+- Slides: [Apresentação](/web-dev/slides/aula-00)
+- Atividades: [Atividade inicial](/web-dev/atividades/#atividade-1)
 
 ### Aula 01: Introdução a Web
 - Podcast
   - [#1 - Surgimento da Internet e da Web](https://anchor.fm/babadodev/episodes/1---Surgimento-da-Internet-e-da-Web-egohdq)
 - Leituras obrigatória: 
   - [Como a Internet Funciona?](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Como_a_internet_funciona)
-- Slides: [Introdução a Web](/programacao-para-internet-i/slides/aula-01)
+- Slides: [Introdução a Web](/web-dev/slides/aula-01)
 - Atividades: [Questionário online](https://forms.gle/9n6yny931PTXfqbr9)
 
 ### Aula 02: Introdução à HTML
@@ -25,8 +25,8 @@ date:   2020-03-04 21:03:36 +0530
   - [Programas básicos](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/instalando_programas_basicos) 
   - [Lidando com arquivos](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/lidando_com_arquivos) 
   - [HTML básico](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/HTML_basico)
-- Slides: [Introdução a HTML](/programacao-para-internet-i/slides/aula-02)
-- Atividades: [Atividade 02](/programacao-para-internet-i/atividades/#atividade-2)
+- Slides: [Introdução a HTML](/web-dev/slides/aula-02)
+- Atividades: [Atividade 02](/web-dev/atividades/#atividade-2)
 
 ### Aula 03: Introdução à CSS
 - Leituras:
@@ -35,8 +35,8 @@ date:   2020-03-04 21:03:36 +0530
   - [Iniciando com CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Iniciando)
   - [Propriedades CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference)
   - [Propriedades CSS (em inglês)](https://www.w3schools.com/css/default.asp)
-- Slides: [Introdução a CSS](/programacao-para-internet-i/slides/aula-03)
-- Atividades: [Atividade 03](/programacao-para-internet-i/atividades/#atividade-3)
+- Slides: [Introdução a CSS](/web-dev/slides/aula-03)
+- Atividades: [Atividade 03](/web-dev/atividades/#atividade-3)
 
 
 ### Aula 04: Trabalho colaborativo e controle de versão (Continuous Integration)
