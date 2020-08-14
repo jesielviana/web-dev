@@ -18,7 +18,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   analytics_id: UA-147295746-1
-  disqus_shortname: web-dev # jesiel@ifpi.edu.br
+  disqus_shortname: jesielviana-web-dev # jesiel@ifpi.edu.br
   navigation:
     - title: Aulas
       url: "/web-dev/aulas"
