@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+p.text-left{
+  text-align: left;
+}
+
 .reveal code{
   font-family: Fira Mono;
 }
