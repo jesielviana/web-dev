@@ -15,7 +15,12 @@ date:   2020-03-04 21:03:36 +0530
 - Podcast
   - [#1 - Surgimento da Internet e da Web](https://anchor.fm/babadodev/episodes/1---Surgimento-da-Internet-e-da-Web-egohdq)
 - Leituras obrigatória: 
+  - [História da Web](https://www.tecmundo.com.br/historia/1778-a-world-wide-web-completa-20-anos-conheca-como-ela-surgiu.htm)
   - [Como a Internet Funciona?](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Como_a_internet_funciona)
+- Vídeos
+  - [Introdução a Web](https://www.youtube.com/watch?v=2Z-9OAB9eLQ)
+  - [A História da Internet](https://www.youtube.com/watch?v=pKxWPo73pX0)
+  - [A história da Internet no Brasil](https://www.youtube.com/watch?v=k_inQhpKprg)
 - Slides: [Introdução a Web](/web-dev/slides/aula-01)
 - Atividades: [Questionário online](https://forms.gle/9n6yny931PTXfqbr9)
 
