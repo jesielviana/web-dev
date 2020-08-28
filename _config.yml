@@ -1,8 +1,8 @@
-title: Programação para Internet I
+title: Programação para Web I
 author: jesielviana
 email: jesiel@ifpi.edu.br
 description: > # this means to ignore newlines until "show_exerpts:"
-  Disciplina de Programação para Internet I do Curso Superior de 
+  Disciplina de Programação para Web I do Curso Superior de 
   Tecnologia em Análise e Desenvolvimento de Sistemas do IFPI Campus Picos
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -11,7 +11,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Programação para Internet I
+  name: Programação para Web I
   tagline: |
     IFPI Campus Picos
     ADS 2020.1

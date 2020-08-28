@@ -1,4 +1,4 @@
-# Programação para Internet I
+# Programação para Web I
 ### Apresentação do Plano de Disciplina <!-- .element: class="opacity60"  -->
 [Prof. Jesiel Viana](https://jesielviana.github.io)
 Notes: Examples notes
