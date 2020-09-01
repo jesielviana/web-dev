@@ -30,7 +30,11 @@ date:   2020-03-04 21:03:36 +0530
   - [Programas básicos](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/instalando_programas_basicos) 
   - [Lidando com arquivos](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/lidando_com_arquivos) 
   - [HTML básico](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/HTML_basico)
+- Vídeos:
+  - [Videoaula (Parte 1)](https://www.youtube.com/watch?v=WluzG6RN5qA)
+  - [Videoaula (Parte 2)](https://www.youtube.com/watch?v=2w5ss6jwceA)
 - Slides: [Introdução a HTML](/web-dev/slides/aula-02)
+- Podcast: [#2 - O que é HTML](https://anchor.fm/babadodev/episodes/02---O-que--HTML-eiupjq)
 - Atividades: [Atividade 02](/web-dev/atividades/#atividade-2)
 
 ### Aula 03: Introdução à CSS
