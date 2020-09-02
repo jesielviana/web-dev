@@ -7,6 +7,8 @@ layout: default
     <h2 class="post-title">{{ page.title | escape }}</h2>
   </a>
   <div class="post-meta">
+    <p>Escrito por <a class="autor" target="_blank" href="{{ page.autorlink }}">{{ page.autor }}</a></p>
+
     <ul class="post-categories">
       {%- for tag in page.categories -%}
       <li>{{ tag }}</li>
@@ -14,6 +16,7 @@ layout: default
     </ul>
     <div class="post-date"><i class="icon-calendar"></i>{{ page.date | date: date_format }}</div>
   </div>
+  <hr>
   <div class="post">
     {{ content }}
   </div>
