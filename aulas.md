@@ -44,6 +44,8 @@ date:   2020-03-04 21:03:36 +0530
   - [Iniciando com CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Iniciando)
   - [Propriedades CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference)
   - [Propriedades CSS (em inglês)](https://www.w3schools.com/css/default.asp)
+- Vídeos:
+  - [O que é CSS?](https://www.youtube.com/watch?v=229xfk3EEM8)
 - Slides: [Introdução a CSS](/web-dev/slides/aula-03)
 - Atividades: [Atividade 03](/web-dev/atividades/#atividade-3)
 
