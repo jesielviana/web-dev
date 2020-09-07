@@ -166,6 +166,7 @@ Role até a sessão Github pages, onde irá conter o link para seu site, então 
 Imagem 4.4 - Clicando no link do site
 
 Após ser redirecionado para o seu site, note que irá aparecer exatamente o que colocamos no arquivo **index.html** (Imagem 4.5). 
+
 <img style="display: block" alt="Visualizando o site" src="../assets/img/github-pages/view-site.png">
 
 Imagem 4.5 - Visualizando o site
