@@ -26,6 +26,8 @@ plainwhite:
       url: "/web-dev/atividades"
     - title: Projetos
       url: "/web-dev/projetos"
+    - title: Tutoriais
+      url: "/web-dev/tutoriais"
     - title: Podcast
       url: "https://anchor.fm/babadodev"
 
