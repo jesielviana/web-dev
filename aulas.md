@@ -9,7 +9,7 @@ date:   2020-03-04 21:03:36 +0530
   - [Descrição do Curso](/) 
   - [Começando na Web](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web)
 - Slides: [Apresentação](/web-dev/slides/aula-00)
-- Atividades: [Atividade inicial](/web-dev/atividades/#atividade-1)
+- Atividades: [Atividade inicial](/web-dev/atividades#atividade-1)
 
 ### Aula 01: Introdução a Web
 - Podcast
@@ -35,7 +35,7 @@ date:   2020-03-04 21:03:36 +0530
   - [Videoaula (Parte 2)](https://www.youtube.com/watch?v=2w5ss6jwceA)
 - Slides: [Introdução a HTML](/web-dev/slides/aula-02)
 - Podcast: [#2 - O que é HTML](https://anchor.fm/babadodev/episodes/02---O-que--HTML-eiupjq)
-- Atividades: [Atividade 02](/web-dev/atividades/#atividade-2)
+- Atividades: [Atividade 02](/web-dev/atividades#atividade-2)
 
 ### Aula 03: Introdução à CSS
 - Leituras:
@@ -47,7 +47,7 @@ date:   2020-03-04 21:03:36 +0530
 - Vídeos:
   - [O que é CSS?](https://www.youtube.com/watch?v=229xfk3EEM8)
 - Slides: [Introdução a CSS](/web-dev/slides/aula-03)
-- Atividades: [Atividade 03](/web-dev/atividades/#atividade-3)
+- Atividades: [Atividade 03](/web-dev/atividades#atividade-3)
 
 
 ### Aula 04: Trabalho colaborativo e controle de versão (Continuous Integration)
