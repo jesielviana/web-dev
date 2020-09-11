@@ -12,11 +12,15 @@ autorlink: https://wemersonpd.github.io
 
 Já o **GitHub pages** como foi apresentado, é um dos serviço oferecidos pelo Github, onde de forma rápida e simples é possível hospedar gratuitamente sites direto dos seus **repositórios** no Github. **Repositório** é a pasta raiz do seu projeto, onde todos os arquivos necessários para o projeto ficam dentro do mesmo.
 
+**Este tutorial também está disponível em vídeo:**
+<div style="text-align: center">
+<iframe width="760" height="470" src="https://www.youtube.com/embed/rev0IoJdiBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 ## 1 - Criando uma conta no Github
 
 De forma rápida e prática, acesse [github.com](https://github.com/) e clique em **Sign up (inscrever-se)**, como mostra a Imagem 1.1.
 
-<img alt="Clicando em Sign up (inscrever-se)" src="../assets/img/github-pages/github-signup.png" style="display: block">
+<img class="img-print" alt="Clicando em Sign up (inscrever-se)" src="../assets/img/github-pages/github-signup.png" style="display: block">
 
 Imagem 1.1 - Clicando em Sign up (inscrever-se).
 
@@ -26,37 +30,37 @@ Depois basta preencher todos os campos e efetuar **Sign in (login)**, então est
 
 Após estar logado no Github, vamos criar o nosso repositório clicando em **new**, como na Imagem 2.1.
 
-<img style="display: block" alt="Criando um novo repositório" src="../assets/img/github-pages/github-create-repository.png">
+<img class="img-print" style="display: block" alt="Criando um novo repositório" src="../assets/img/github-pages/github-create-repository.png">
 
 Imagem 2.1 - Criando um novo repositório
 
 Em seguida irá aparecer uma tela como na Imagem 2.2.
 
-<img style="display: block" alt="Estrutura para criação de um repositório" src="../assets/img/github-pages/github-create-repository-initial-config.png">
+<img class="img-print" style="display: block" alt="Estrutura para criação de um repositório" src="../assets/img/github-pages/github-create-repository-initial-config.png">
 
 Imagem 2.2 - Estrutura para criação de um repositório
 
 Em **Repository name (Nome do repositório)** devemos especificar um nome para nosso site como mostra a Imagem 2.3, porém para que seja possível )ativar) o Github pages, é necessário que o repositório seja nomeado com **user-name.github.io**, onde devemos substituir **user-name** por o seu nome de usuário. Caso não lembre seu nome de usuário, ele é o valor contido no campo **Owner** como mostra a Imagem 2.3.
 
-<img style="display: block" alt="Nome do repositório" src="../assets/img/github-pages/github-create-repository-name.png">
+<img class="img-print" style="display: block" alt="Nome do repositório" src="../assets/img/github-pages/github-create-repository-name.png">
 
 Imagem 2.3 - Nome do repositório
 
 No github os repositórios podem ser públicos ou privados. A principal diferença entre os dois tipos são a sua visualização, onde o público qualquer pessoa pode o visualizar, já o privado só é possível por pessoas com sua autorização. No caso do Github pages, é preciso que seu repositório seja público, por isso vamos marcar a opção **Public (Público)** como na figura 2.4.
 
-<img style="display: block" alt="Selecionando Public" src="../assets/img/github-pages/github-create-repository-public.png">
+<img class="img-print" style="display: block" alt="Selecionando Public" src="../assets/img/github-pages/github-create-repository-public.png">
 
 Imagem 2.4 - Selecionando Public (Público)
 
 Após isso, clique em **create repository (Criar repositório)** para que o seu repositório seja criado. Em seguida irá aparecer uma tela como a Imagem 2.5.
 
-<img style="display: block" alt="Configurações inicias do projeto" src="../assets/img/github-pages/github-repository-view.png">
+<img class="img-print" style="display: block" alt="Configurações inicias do projeto" src="../assets/img/github-pages/github-repository-view.png">
 
 Imagem 2.5 - Configurações inicias do projeto
 
 Vamos **copiar o link do repositório**, para que seja possível **clonar** o mesmo.
 
-<img style="display: block" alt="Copiando o link do repositório" src="../assets/img/github-pages/github-repository-link.png">
+<img class="img-print" style="display: block" alt="Copiando o link do repositório" src="../assets/img/github-pages/github-repository-link.png">
 
 Imagem 2.6 - Copiando o link do repositório
 
@@ -64,7 +68,7 @@ Imagem 2.6 - Copiando o link do repositório
 
 Abra o seu terminal e acesse a pasta no qual você quer salvar seu repositório. Para acessar uma pasta já existente no computador, basta digitar `cd pasta`, onde devemos substituir `pasta` por a pasta que queremos entrar, até chegar na desejada, como na Imagem 2.7.
 
-<img style="display: block" alt="Entrando na pasta dev web" src="../assets/img/github-pages/open-folder-for-clone-to-repository.png">
+<img class="img-print" style="display: block" alt="Entrando na pasta dev web" src="../assets/img/github-pages/open-folder-for-clone-to-repository.png">
 
 Imagem 3.1 - Entrando em uma pasta existente para clonar o repositório para a mesma
 
@@ -72,45 +76,45 @@ Caso esteja tentando acessar uma pasta e não esteja conseguindo, basta utilizar
 
 Agora vamos **clonar** nosso repositório para que seja possível baixá-lo e editá-lo em qualquer lugar. Para clonar o repositório é preciso ter o Git instalado na sua máquina, caso não tenha basta acessar [git.com](https://git-scm.com/downloads), faça o download e o instale. Com o git na sua máquina e com o terminal que abrimos no passo anterior, digite ``git clone link-do-repositório`` (Imagem 3.2), onde deve-se substituir ``link-do-repositorio`` por o link do seu repositório (Imagem 2.6), por fim teremos baixado no nosso computador a pasta raiz do projeto.
 
-<img style="display: block" alt="Clonando o repositório" src="../assets/img/github-pages/clone-repository.png">
+<img class="img-print" style="display: block" alt="Clonando o repositório" src="../assets/img/github-pages/clone-repository.png">
 
 Imagem 3.2 - Clonando o repositório
 
 Após ter clonado, é possível visualizar o repositório do projeto acessando a pasta que você escolheu ou apenas utilizando o comando `dir` no windows (Imagem 3.3.1) e `ls` no linux (Imagem 3.3.2). 
 
-<img style="display: block" alt="Visualização do repositório no windows" src="../assets/img/github-pages/view-repository-in-windows.png">
+<img class="img-print" style="display: block" alt="Visualização do repositório no windows" src="../assets/img/github-pages/view-repository-in-windows.png">
 
 Imagem 3.3.1 - Visualizando o repositório via terminal no windows
 
-<img style="display: block" alt="Visualização do repositório no linux" src="../assets/img/github-pages/view-repository-in-linux.png">
+<img class="img-print" style="display: block" alt="Visualização do repositório no linux" src="../assets/img/github-pages/view-repository-in-linux.png">
 
 Imagem 3.3.2 - Visualizando o repositório via terminal no Linux
 
 Agora que sabemos o nome do repositório na sua máquina, vamos acessá-lo pelo terminal com o comando `cd nome-do-repositório` (Imagem 3.4), onde `nome-do-repositório`deve ser substituído por o nome do repositório que encontramos no passo anterior, como mostra a Imagem 3.3.1 ou 3.3.2, dependendo do seu sistema operacional.
 
-<img style="display: block" alt="Entrando no repositório" src="../assets/img/github-pages/open-repository-in-terminal.png">
+<img class="img-print" style="display: block" alt="Entrando no repositório" src="../assets/img/github-pages/open-repository-in-terminal.png">
 
 Imagem 3.4 - Entrando no repositório via terminal
 
 Por fim, vamos abrir o repositório no Visual Studio Code (VsCode) que é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Caso não tenha ele no seu computador, acesse [vscode.com](https://code.visualstudio.com/Download) para baixá-lo e instalá-lo. Após isso, digite no terminal `code .` para abrir o repositório no VsCode (Imagem 3.5).
 
-<img style="display: block" alt="Abrindo o repositório no VsCode" src="../assets/img/github-pages/open-repository-in-vscode.png">
+<img class="img-print" style="display: block" alt="Abrindo o repositório no VsCode" src="../assets/img/github-pages/open-repository-in-vscode.png">
 
 Imagem 3.5 - Abrindo o repositório no VsCode
 
 Então será aberto uma aba como da Imagem 3.6, onde mostra o vscode com nosso repositório aberto nele.
 
-<img style="display: block" alt="Visualizando repositório no VsCode" src="../assets/img/github-pages/view-repository-open-in-vscode.png">
+<img class="img-print" style="display: block" alt="Visualizando repositório no VsCode" src="../assets/img/github-pages/view-repository-open-in-vscode.png">
 
 Imagem 3.6 - Visualizando o repositório aberto no VsCode
 
 Agora vamos criar o arquivo base para nosso site. Clique como o botão direito **no repositório**, então selecione **new file** (Imagem 3.7), então informe o nome do arquivo, que obrigatoriamente para este exemplo, deve-se chama **index.html** como na Imagem 3.8.
 
-<img style="display: block" alt="New file (Novo arquivo)" src="../assets/img/github-pages/create-new-file.png">
+<img class="img-print" style="display: block" alt="New file (Novo arquivo)" src="../assets/img/github-pages/create-new-file.png">
 
 Imagem 3.7 - Clicando em criar um new file (novo arquivo)
 
-<img style="display: block" alt="Nome do arquivo" src="../assets/img/github-pages/name-new-file.png">
+<img class="img-print" style="display: block" alt="Nome do arquivo" src="../assets/img/github-pages/name-new-file.png">
 
 Imagem 3.8 - Nomeando o arquivo
 
@@ -133,7 +137,7 @@ Então clique no arquivo **index.js**, copie e cole o seguinte código de exempl
 
 O arquivo deve ficar como o da Imagem 3.9, onde temos a estrutura básica para nosso site, deixando claro que este código é apenas um exemplo e o mesmo pode ser alterado como queira. **Não se esqueça de salvar o arquivo pressionando `Control + s`**.
 
-<img style="display: block" alt="Estrutura básica do site" src="../assets/img/github-pages/view-code-initial.png">
+<img class="img-print" style="display: block" alt="Estrutura básica do site" src="../assets/img/github-pages/view-code-initial.png">
 
 Imagem 3.9 - Estrutura básica do site
 
@@ -143,31 +147,31 @@ As alterações feitas até o momento são locais, então será preciso enviar a
 
 Para que seja possível enviar as alterações feitas para o Github, precisamos commitar as alterações, que é o ato de gerar uma nova "versão" do nosso código e enviar está "nova versão" para alguma plataforma de gerenciamento de código, no caso o Github. Então para que seja possível commitar e mandar para nosso repositório. Abra o terminal clicando em **Terminal** depois **new terminal (novo terminal)** como na Imagem 4.1.
 
-<img style="display: block" alt="Abrindo um terminal no VsCode" src="../assets/img/github-pages/open-terminal-in-vscode.png">
+<img class="img-print" style="display: block" alt="Abrindo um terminal no VsCode" src="../assets/img/github-pages/open-terminal-in-vscode.png">
 
 Imagem 4.1 - Abrindo um terminal no VsCode
 
 Note que na parte inferior da sua tela foi aberto um terminal. Agora de fato vamos commitar nossa aplicação. Digite `git add .` para que seja adicionado todos os arquivos ao git. Depois digite `git commit -m "Commit inicial"`. Por fim digite `git push`, e agora mandamos nossas alterações locais para seu repositório no github. Note que **todos** os comandos são descritos na Imagem 4.2.
 
-<img style="display: block" alt="Comandos git" src="../assets/img/github-pages/git-commit.png">
+<img class="img-print" style="display: block" alt="Comandos git" src="../assets/img/github-pages/git-commit.png">
 
 Imagem 4.2 - Comandos git
 
 Então vá no repositório no Github, acesse  **Settings (configurações)** do repositório (Imagem 4.3) 
 
-<img style="display: block" alt="Clicando em configurações" src="../assets/img/github-pages/touch-settings-github.png">
+<img class="img-print" style="display: block" alt="Clicando em configurações" src="../assets/img/github-pages/touch-settings-github.png">
 
 Imagem 4.3 - Clicando em configurações
 
 Role até a sessão Github pages, onde irá conter o link para seu site, então basta clicar no mesmo e será redirecionado para o seu site (Imagem 4.4).
 
-<img style="display: block" alt="Clicando no link do site" src="../assets/img/github-pages/touch-link-site.png">
+<img class="img-print" style="display: block" alt="Clicando no link do site" src="../assets/img/github-pages/touch-link-site.png">
 
 Imagem 4.4 - Clicando no link do site
 
 Após ser redirecionado para o seu site, note que irá aparecer exatamente o que colocamos no arquivo **index.html** (Imagem 4.5). 
 
-<img style="display: block" alt="Visualizando o site" src="../assets/img/github-pages/view-site.png">
+<img class="img-print" style="display: block" alt="Visualizando o site" src="../assets/img/github-pages/view-site.png">
 
 Imagem 4.5 - Visualizando o site
 
