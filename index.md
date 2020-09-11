@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Programação para Web I
 date: 01/08/2020
 ---
