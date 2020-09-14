@@ -33,3 +33,7 @@ Não se esqueça de fazer a integração entre o arquivo CSS e a sua página HTM
   1. Por último, foque nos detalhes de cada elemento.
 
 ---
+
+## Atividade 4
+
+Crie um repositório no Github e adicione pelo menos mais 1 colaborador e faça pelo menos 4 commits intercalados (você e o outro colaborador).

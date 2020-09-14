@@ -50,10 +50,17 @@ date:   2020-03-04 21:03:36 +0530
 - Atividades: [Atividade 03](/web-dev/atividades#atividade-3)
 
 
-### Aula 04: Trabalho colaborativo e controle de versão (Continuous Integration)
+### Aula 04: Git e Github: trabalho colaborativo e controle de versão
 - Leituras:
-- Slides:
-- Atividades:
+  - [O que é controle de versão](https://www.atlassian.com/br/git/tutorials/what-is-version-control)
+  - [Git](https://engsoftmoderna.info/capAp.html)
+  - [Github](https://guides.github.com/activities/hello-world/)(Inglês)
+- Podcast: [#4 - Git e Trabalho Colaborativo](https://open.spotify.com/episode/28lVsU2OqtkdwmijazZdYt)
+- Vídeos: 
+  - [Git e Github para iniciantes by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
+  - [O que são Git e Github by Alura](https://www.youtube.com/watch?v=P4BNi_yPehc)
+- Slides: [Git e Github](/web-dev/slides/aula-04)
+- Atividades:  [Atividade 04](/web-dev/atividades#atividade-4)
 
 ### Aula 05: Páginas Web elegantes com HTML5 e CSS3
 - Leituras:
