@@ -6,7 +6,7 @@ autor: Wemerson Patrick
 autorlink: https://wemersonpd.github.io
 ---
 
-## O que é Github e Github pages?
+#### O que é Github e Github pages?
 
 **GitHub** é um sistema que tem como principal intuito o gerenciamento de projetos e versões de código. Porém, além do seu foco principal, ele oferece vários outros serviços desde o **Github pages** até mesmo ser uma rede social de desenvolvedores.
 
