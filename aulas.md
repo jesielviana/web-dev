@@ -52,14 +52,14 @@ date:   2020-03-04 21:03:36 +0530
 
 ### Aula 04: Git e Github: trabalho colaborativo e controle de versão
 - Leituras:
-  - [O que é controle de versão](https://www.atlassian.com/br/git/tutorials/what-is-version-control)
-  - [Git](https://engsoftmoderna.info/capAp.html)
-  - [Github](https://guides.github.com/activities/hello-world/)(Inglês)
+  - <a href="https://www.atlassian.com/br/git/tutorials/what-is-version-control" target="_blank">O que é controle de versão</a>
+  - <a href="https://engsoftmoderna.info/capAp.html" target="_blank">Git</a>
+  - <a href="https://guides.github.com/activities/hello-world/" target="_blank">Github (Inglês)</a>
 - Podcast: [#4 - Git e Trabalho Colaborativo](https://open.spotify.com/episode/28lVsU2OqtkdwmijazZdYt)
 - Vídeos: 
-  - [Git e Github para iniciantes by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
-  - [O que são Git e Github by Alura](https://www.youtube.com/watch?v=P4BNi_yPehc)
-- Slides: [Git e Github](/web-dev/slides/aula-04)
+  - <a href="https://www.youtube.com/watch?v=UMhskLXJuq4" target="_blank">Git e Github para iniciantes by Loiane Groner</a>
+  - <a href="https://www.youtube.com/watch?v=P4BNi_yPehc" target="_blank">O que são Git e Github by Alura</a>
+- Slides: <a href="/web-dev/slides/aula-04" target="_blank">Git e Github</a>
 - Atividades:  [Atividade 04](/web-dev/atividades#atividade-4)
 
 ### Aula 05: Páginas Web elegantes com HTML5 e CSS3

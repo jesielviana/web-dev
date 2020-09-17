@@ -12,6 +12,8 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Programação para Web I
+  search: true
+  html_lang: "pt-br"
   tagline: |
     IFPI Campus Picos
     ADS 2020.1
