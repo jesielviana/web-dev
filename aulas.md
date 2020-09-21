@@ -62,10 +62,10 @@ date:   2020-03-04 21:03:36 +0530
 - Slides: <a href="/web-dev/slides/aula-04" target="_blank">Git e Github</a>
 - Atividades:  [Atividade 04](/web-dev/atividades#atividade-4)
 
-### Aula 05: Páginas Web elegantes com HTML5 e CSS3
-- Leituras:
-- Slides:
-- Atividades:
+### Aula 05: Revisão de HTML5 e CSS3 e Seleção do Projetos
+- Leituras: <a href="https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/CSS_basico" target="_blank">CSS com HTML</a>
+- Projetos: <a href="https://www.notion.so/jesielviana/Lista-de-Projetos-1ce9d965daff497181da7dd50c9f0d32" target="_blank">Lista de Projetos</a>
+- Atividades: [Atividade 05](/web-dev/atividades#atividade-5)
 
 
 ### Aula 06: Como a Web funciona?

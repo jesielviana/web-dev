@@ -37,3 +37,9 @@ Não se esqueça de fazer a integração entre o arquivo CSS e a sua página HTM
 ## Atividade 4
 
 Crie um repositório no Github e adicione pelo menos mais 1 colaborador e faça pelo menos 4 commits intercalados (você e o outro colaborador).
+
+---
+
+## Atividade 5
+
+Publicar no Github Pages o site construído nas aulas 3 e 4 e Enviar o link do Campuswire.
