@@ -3,5 +3,9 @@ layout: page
 title:  "Projetos"
 ---
 
-### Em breve a descrição sobre os projetos.
-Olá 
+### Projeto XPTO.
+**Equipe**: NOME_EQUIPE<br>
+**Integrantes da equipe**: ALUNO_<br>
+**Site**: link<br>
+
+___
