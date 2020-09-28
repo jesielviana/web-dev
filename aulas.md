@@ -64,7 +64,7 @@ date:   2020-03-04 21:03:36 +0530
 
 ### Aula 05: Revisão de HTML5 e CSS3 e Seleção do Projetos
 - Leituras: <a href="https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/CSS_basico" target="_blank">CSS com HTML</a>
-- Vídeo Tutorial: <a href="https://youtu.be/-pLfwQPR9yY" target="_blank">Aprenda Construir Layouts Elegantes com CSS Grid e Flexbox</a>
+- Vídeo Tutorial: <a href="https://youtu.be/1mf4mZE9o_4" target="_blank">Aprenda Construir Layouts Elegantes com CSS Grid e Flexbox</a>
 - Projetos: <a href="https://www.notion.so/jesielviana/Lista-de-Projetos-1ce9d965daff497181da7dd50c9f0d32" target="_blank">Lista de Projetos</a>
 - Atividades: [Atividade 05](/web-dev/atividades#atividade-5)
 
