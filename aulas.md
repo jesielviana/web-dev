@@ -75,7 +75,7 @@ date:   2020-03-04 21:03:36 +0530
   - [Como a Web funciona? [by Tableless]](https://tableless.com.br/como-funciona-internet-e-world-wide-web/)
   - [O que é um servidor Web?](https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/o_que_e_um_web_server)
   - [Como navegador funciona?](https://www.html5rocks.com/pt/tutorials/internals/howbrowserswork/)
-- Slides: [Como a Web funciona]
+- Slides: <a href="https://docs.google.com/presentation/d/1BzgZoTPmfnv7n9x596fkt3Q8UU4K0zv0wlP1Isx5Noc/edit?usp=sharing" target="_blank">Como a Web Funciona?</a>
 - Atividades: [Questionário online](https://forms.gle/jsrEtxNtrJSZYFxAA)
 
 ### Aula 07: Entendendo o protocolo HTTP
