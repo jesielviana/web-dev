@@ -43,3 +43,16 @@ Crie um repositório no Github e adicione pelo menos mais 1 colaborador e faça 
 ## Atividade 5
 
 Publicar no Github Pages o site construído nas aulas 3 e 4 e Enviar o link do Campuswire.
+
+---
+
+
+## Atividade 7
+
+Responder Kahoot, link será disponibilizado na aula.
+
+Responder questionário dos quadrinhos sobre https, disponível no lik: 
+ <a href="https://howhttps.works/why-do-we-need-https/" target="_blank">COMO HTTPS FUNCIONA</a>
+
+
+----

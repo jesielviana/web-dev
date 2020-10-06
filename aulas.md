@@ -86,8 +86,8 @@ date:   2020-03-04 21:03:36 +0530
   - [Códigos de status HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
   - [CORS - Controle de acesso](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
   - [Como HTTPS funciona? [em inglês]](https://howhttps.works/)
-- Slides:
-- Atividades:
+- Slides: <a href="https://docs.google.com/presentation/d/1zQ94cEa-pbps2dzfTDRVEKUzZh9W9tI1TYOoEGtoRsU/edit?usp=sharing" target="_blank">HTTP - Entendendo o idioma dos navegadores</a>
+- Atividades: [Atividade 07](/web-dev/atividades#atividade-7)
 
 ### Aula 08: Web Design Responsivo
 - Leituras:
