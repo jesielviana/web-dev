@@ -91,8 +91,8 @@ date:   2020-03-04 21:03:36 +0530
 
 ### Aula 08: Web Design Responsivo
 - Leituras:
-<a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive?hl=pt-br" target="_blank">Princípios básicos do Web design responsivo, by Google</a>
-<a href="https://rockcontent.com/br/blog/web-design-responsivo/" target="_blank">9 princípios básicos do web design responsivo, by rockcontent</a>
+  - <a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive?hl=pt-br" target="_blank">Princípios básicos do Web design responsivo, by Google</a>
+  - <a href="https://rockcontent.com/br/blog/web-design-responsivo/" target="_blank">9 princípios básicos do web design responsivo, by rockcontent</a>
 - Slides:
 <a href="https://docs.google.com/presentation/d/1q8VhNcY-ac0vJUEN5vv6ven3uI-7ASBkRm2LKiJyrKg/edit?usp=sharing" target="_blank">Web Design Responsivo</a>
 - Atividades: N/A
