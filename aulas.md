@@ -98,11 +98,18 @@ date:   2020-03-04 21:03:36 +0530
 - Atividades: N/A
 
 ### Aula 09: Usabilidade e Acessibilidade na Web
-- Leituras:
-  - [Usabilidade](https://ux.sapo.pt/usabilidade/web/introducao/)
-  - [Acessibilidade](https://ux.sapo.pt/acessibilidade/)
-- Slides:
-- Atividades:
+<ul>
+  <li>Leituras:
+    <ul>
+      <li><a target="_blank" href="https://ux.sapo.pt/usabilidade/web/introducao/">Usabilidade</a></li>
+      <li><a target="_blank" href="https://ux.sapo.pt/acessibilidade/">Acessibilidade</a></li>
+      <li><a target="_blank" href="https://www.a11yproject.com/">a11yproject</a></li>
+      <li><a target="_blank" href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a></li>
+    </ul>
+  </li>
+  <li>Slides: N/A</li>
+  <li>Atividades: Aplicar o Lighthouse em todos trabalhos Web desenvolvidos e obter acima de 90 em todos os aspectos.</li>
+</ul>
 
 ### Aula 10: Introdução à Javascript
 - Leituras:
