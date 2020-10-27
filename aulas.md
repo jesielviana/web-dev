@@ -128,7 +128,7 @@ date: 2020-03-04 21:03:36 +0530
 
 - Leituras: <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide" target="_blank">Guia JavaScript, By Mozilla</a>
 - Slides: <a href="https://docs.google.com/presentation/d/1dWeWB-uRHUJldGcvoohr6TIfC1prEZlQ8ehcglfnbi0/edit?usp=sharing" target="_blank">Introdução a Javascript</a>
-- Atividades: 
+- Atividades: [Atividade 10](/web-dev/atividades#atividade-10)
 
 ### Aula 11: Entendendo o Javascript assíncrono: callback, promise e async await
 

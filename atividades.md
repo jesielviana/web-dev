@@ -65,3 +65,8 @@ Alterar o jogo do w3schools(código fonte disponível no link abaixo) para manip
 Como o jogo deve ficar:
 <a href="https://gamejs--jesielviana.repl.co/" target="_blank">HTML Game Example, alterado por Jesiel Viana</a>
 
+
+____
+
+
+
