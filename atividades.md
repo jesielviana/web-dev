@@ -56,3 +56,12 @@ Responder questionário dos quadrinhos sobre https, disponível no lik:
 
 
 ----
+
+## Atividade 10
+
+Alterar o jogo do w3schools(código fonte disponível no link abaixo) para manipular o objeto por meio das teclas de setas do teclado
+ <a href="https://www.w3schools.com/graphics/game_intro.asp" target="_blank">HTML Game Example</a>
+
+Como o jogo deve ficar:
+<a href="https://gamejs--jesielviana.repl.co/" target="_blank">HTML Game Example, alterado por Jesiel Viana</a>
+
