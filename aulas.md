@@ -133,8 +133,14 @@ date: 2020-03-04 21:03:36 +0530
 ### Aula 11: Entendendo o Javascript assíncrono: callback, promise e async await
 
 - Leituras:
-- Slides:
-- Atividades:
+  - <a href="https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function" target="_blank">Função Callback</a>
+  - <a href="https://imasters.com.br/desenvolvimento/gerenciando-o-fluxo-assincrono-de-operacoes-em-nodejs" target="_blank">Gerenciando o fluxo assíncrono de operações em NodeJS</a>
+  - <a href="https://medium.com/@alcidesqueiroz/javascript-ass%C3%ADncrono-callbacks-promises-e-async-functions-9191b8272298" target="_blank">JavaScript assíncrono: callbacks, promises e async functions</a>
+- Vídeos: 
+  - <a href="https://www.youtube.com/watch?v=tVYTqsqZHZY" target="_blank">O que é código assíncrono | JavaScript</a> 
+  - <a href="https://www.youtube.com/watch?v=8o-9nQ3DQEA" target="_blank">Dificuldades em entender callbacks?</a>
+  - <a href="https://www.youtube.com/watch?v=7Bs4-rqbCQc" target="_blank">JS Assíncrono: Entenda de vez Callbacks, Promises e Async/Await</a>
+- Atividades: ...
 
 ### Aula 12: Manipulando o DOM (Document Objetc Model)
 
@@ -173,3 +179,5 @@ date: 2020-03-04 21:03:36 +0530
   - [Cartilha de segurança na Web](https://cartilha.cert.br/)
 - Slides:
 - Atividades:
+
+<!-- <a href="" target="_blank"></a> -->
