@@ -140,7 +140,7 @@ date: 2020-03-04 21:03:36 +0530
   - <a href="https://www.youtube.com/watch?v=tVYTqsqZHZY" target="_blank">O que é código assíncrono | JavaScript</a> 
   - <a href="https://www.youtube.com/watch?v=8o-9nQ3DQEA" target="_blank">Dificuldades em entender callbacks?</a>
   - <a href="https://www.youtube.com/watch?v=7Bs4-rqbCQc" target="_blank">JS Assíncrono: Entenda de vez Callbacks, Promises e Async/Await</a>
-- Atividades: ...
+- Atividade em DUPLA: Codificar exemplos de funções assíncronas Javascript utilizando "callback", "Promise" e "async - await". Apresentar o código na próxima aula.
 
 ### Aula 12: Manipulando o DOM (Document Objetc Model)
 
