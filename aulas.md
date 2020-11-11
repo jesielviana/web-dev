@@ -148,32 +148,26 @@ date: 2020-03-04 21:03:36 +0530
 - Slides:
 - Atividades:
 
-### Aula 13: Trabalhando com formulários na Web
+### Aula 13: Formulários e integração com APIs
 
 - Leituras:
   - [Usabilidade em fomulários](https://ux.sapo.pt/usabilidade/web/formularios/)
 - Slides:
 - Atividades:
 
-### Aula 14: Consumindo APIs com fetch
+### Aula 14: Testes automatizados
 
 - Leituras:
 - Slides:
 - Atividades:
 
-### Aula 15: Testes automatizados
+### Aula 15: Continuous Delivery
 
 - Leituras:
 - Slides:
 - Atividades:
 
-### Aula 16: Continuous Delivery
-
-- Leituras:
-- Slides:
-- Atividades:
-
-### Aula 17: Segurança na Web
+### Aula 16: Segurança na Web
 
 - Leituras:
   - [Cartilha de segurança na Web](https://cartilha.cert.br/)
