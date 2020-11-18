@@ -145,8 +145,11 @@ date: 2020-03-04 21:03:36 +0530
 ### Aula 12: Manipulando o DOM (Document Objetc Model)
 
 - Leituras:
-- Slides:
-- Atividades:
+  - <a href="http://devfuria.com.br/javascript/dom/" target="_blank">DOM - Document Object Model, by devfuria</a>
+  - <a href="https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o" target="_blank">Introdução ao DOM, by MDN</a>
+- Atividades: 
+  - <a href="https://repl.it/@ProgramaoparaWe/Manipulacao-do-DOM#README.md" target="_blank">Manipulando o DOM HTML com Javascript</a>
+  - <a href="https://repl.it/@ProgramaoparaWe/lampada#README.md" target="_blank">Desafio da lâmpada</a>
 
 ### Aula 13: Formulários e integração com APIs
 
