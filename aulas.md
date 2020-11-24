@@ -158,7 +158,8 @@ date: 2020-03-04 21:03:36 +0530
   - <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form" target="_blank">Como estruturar um formulário HTML</a> 
   - <a href="https://ux.sapo.pt/usabilidade/web/formularios/" target="_blank">Usabilidade em fomulários</a> 
   - <a href="https://braziljs.org/artigos/fetch-api-e-o-javascript/" target="_blank">Fetch API e o JavaScript</a> 
-- Atividades: <a href="https://repl.it/@ProgramaoparaWe/frontend-api#README.md" target="_blank">Integrando front-end com API remota</a>
+- Atividades: 
+  - <a href="https://repl.it/@ProgramaoparaWe/frontend-api#README.md" target="_blank">Integrando front-end com API remota</a>
 
 ### Aula 14: Testes automatizados
 
