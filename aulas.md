@@ -164,7 +164,13 @@ date: 2020-03-04 21:03:36 +0530
 ### Aula 14: Testes automatizados
 
 - Leituras:
+  - <a href="https://engsoftmoderna.info/cap8.html" target="_blank">Livro Engenharia de Software Moderna - Cap 8 Testes</a>
+  - <a href="https://imasters.com.br/front-end/cypress-vuejs-primeiros-passos" target="_blank">Cypress + Vuejs – Primeiros passos</a>
+  - <a href="https://www.cypress.io/" target="_blank">cypress</a>
 - Slides:
+- Vídeos:
+    - <a href="https://www.youtube.com/playlist?list=PLE-5PZOOoVUiEVKU4PrgpESddSlrhYZ7x" target="_blank">Testing+, Curso online do Prof. Paulo Borba da UFPE</a>
+    - <a href="https://www.youtube.com/watch?v=ipE9bsfYEog&t=416s" target="_blank">Cypress (O Teste Front-End Mais Fácil que Você vai Ver) // Dicionário do Programador</a>
 - Atividades:
 
 ### Aula 15: Continuous Delivery
