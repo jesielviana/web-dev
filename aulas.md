@@ -4,10 +4,6 @@ title: Aulas
 date: 2020-03-04 21:03:36 +0530
 ---
 
-### Playlist no Youtube com todas as aulas gravadas em vídeo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLAxN8g6Knm0cp2NMyddg73ho02AVpU7VY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ### Aula 00: Apresentação
 
 - Leitura obrigatória: \
