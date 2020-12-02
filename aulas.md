@@ -168,10 +168,12 @@ date: 2020-03-04 21:03:36 +0530
   - <a href="https://imasters.com.br/front-end/cypress-vuejs-primeiros-passos" target="_blank">Cypress + Vuejs – Primeiros passos</a>
   - <a href="https://www.cypress.io/" target="_blank">cypress</a>
 - Slides:
+  - <a href="https://docs.google.com/presentation/d/1Ks7INkepBrrIamkx0N6sCKoawLiEV7ROpFLco8KLF4w/edit?usp=sharing" target="_blank">Testes automatizados [frontend JS]</a>
 - Vídeos:
     - <a href="https://www.youtube.com/playlist?list=PLE-5PZOOoVUiEVKU4PrgpESddSlrhYZ7x" target="_blank">Testing+, Curso online do Prof. Paulo Borba da UFPE</a>
     - <a href="https://www.youtube.com/watch?v=ipE9bsfYEog&t=416s" target="_blank">Cypress (O Teste Front-End Mais Fácil que Você vai Ver) // Dicionário do Programador</a>
 - Atividades:
+  - Configurar o Jest e Cypress nos projetos de cada equipe e desenvolver pelo menos um teste de unidade e um teste e2e.
 
 ### Aula 15: Continuous Delivery
 
