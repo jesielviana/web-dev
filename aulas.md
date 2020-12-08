@@ -175,7 +175,7 @@ date: 2020-03-04 21:03:36 +0530
 - Atividades:
   - Configurar o Jest e Cypress nos projetos de cada equipe e desenvolver pelo menos um teste de unidade e um teste e2e.
 
-### Aula 15: Continuous Delivery
+### Aula 15: Continuous Integration & Continuous Deployment
 
 - Leituras:
   - <a href="https://aws.amazon.com/pt/devops/continuous-integration/" target="_blank">O que significa integração contínua?, By AWS</a>
