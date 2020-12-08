@@ -178,8 +178,12 @@ date: 2020-03-04 21:03:36 +0530
 ### Aula 15: Continuous Delivery
 
 - Leituras:
+  - <a href="https://aws.amazon.com/pt/devops/continuous-integration/" target="_blank">O que significa integração contínua?, By AWS</a>
+  - <a href="https://legrug.dev/apresentacao-gitlabcicd/#/" target="_blank">Atomatize, By Márcio Gurgel</a>
+  - <a href="https://github.com/marketplace/actions/github-action-for-firebase" target="_blank">GitHub Actions for Firebase</a>
 - Slides:
-- Atividades:
+  - <a href="https://docs.google.com/presentation/d/1XjTRr7kNc_mxSh0XvSgsk5Sj83JVKAGirNvfyUpw8uo/edit?usp=sharing" target="_blank">Continuous Integration & Continuous Deployment</a>
+- Atividades: Adicionar testes automatiados e configurar cada projeto com o Github Actions para fazer deploy automático no Firebase Hosting.
 
 ### Aula 16: Segurança na Web
 
