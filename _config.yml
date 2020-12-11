@@ -13,30 +13,30 @@ sass:
 plainwhite:
   name: Programação para Web I
   search: true
-  html_lang: "pt-br"
+  html_lang: 'pt-br'
   tagline: |
     IFPI Campus Picos
     ADS 2020.1
-  date_format: "%b %-d, %Y"
+  date_format: '%b %-d, %Y'
   sitemap: true # set to true to generate sitemap.xml content
   analytics_id: UA-147295746-1
   disqus_shortname: jesielviana-web-dev # jesiel@ifpi.edu.br
   navigation:
     - title: Aulas
-      url: "/web-dev/aulas"
+      url: '/web-dev/aulas'
     - title: Atividades
-      url: "/web-dev/atividades"
+      url: '/web-dev/atividades'
     - title: Projetos
-      url: "/web-dev/projetos"
+      url: '/web-dev/projetos'
     - title: Tutoriais
-      url: "/web-dev/tutoriais"
+      url: '/web-dev/tutoriais'
     - title: Podcast
-      url: "https://anchor.fm/babadodev"
+      url: '/web-dev/podcast'
 
   # generate social links in footer
   social_links:
     twitter: jesielviana
-    github:  jesielviana
+    github: jesielviana
     linkedIn: in/jesielviana
     # rss: rss
     # dribbble: jekyll
@@ -51,7 +51,6 @@ plainwhite:
     # telegram: jekyll
     # googleplus: +jekyll
     # microdotblog: jekyll
-
     # Mastodon instances
     # mastodon:
     # - username: jekyll
@@ -72,8 +71,7 @@ plugins:
   - jekyll-pwa-plugin
   - jekyll-feed
 
-baseurl: "/web-dev"
-
+baseurl: '/web-dev'
 
 pwa:
   enabled: false # Optional
@@ -83,8 +81,8 @@ pwa:
   precache_recent_posts_num: 5 # Optional
   precache_glob_directory: / # Optional
   precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - '{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}'
     - index.html
   precache_glob_ignores: # Optional
     - sw-register.js
-    - "fonts/**/*"
+    - 'fonts/**/*'
