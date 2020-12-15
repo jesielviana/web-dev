@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,400i,500,500i,700);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,400i,500,500i,700);
+
+
+/* font Varela Round, Fira Mono */
+
+*{
+  box-sizing: border-box;
+}
+
+p.text-left{
+  text-align: left;
+}
+
+.reveal code{
+  font-family: Fira Mono;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{
+  text-transform: none;
+  font-family: Yanone Kaffeesatz;
+}
+
+.opacity60{
+  opacity: 0.6;
+}
+
+section ul li{
+  margin-bottom: 1rem;
+}
+
+.settings{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  z-index: 99;
+}
+
+.change-theme{
+  background: #fff;
+  border: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.btn-print{
+  margin-right: 16px;
+  background: #fff;
+  border: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.logo{
+  border: none;
+  max-width: 100px;
+  width: 20%;
+  padding: 0;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 99;
+}
+
+img{
+  max-width: 100%;
+}
+
+img[src$='#gif-obama'] { 
+  width: 50%;
+  max-width: 250px;
+}
+
+.reveal section img {
+  margin: 15px 0px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.img-border {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.green{
+  color: #4d7e65;
+}
+
+.blue{
+  color: #5E9AC0;
+}
+
+.red{
+  color: #b5533c;
+}
+
+.orange{
+  color: #F19B2C;
+}
+
+.violet{
+  color: #6300C8;
+}
+
+.text-title{
+  color: #fcf7ed !important;
+}
+
+.text-autor{
+  color: #333;
+  font-family: Yanone Kaffeesatz;
+  font-weight: 300 !important;;
+}
+
+.contact{
+  font-family: Yanone Kaffeesatz;
+  font-weight: 300 !important;
+  color: #fcf7ed !important;
+}
+
+.text-dark{
+  color: #333 !important;
+}
+
+section{
+  word-break: break-word;
+}
+
+.references{
+  font-size: 2rem;
+}
+
+i{
+  font-style: italic;
+}
+
+.two-column{
+  display: flex;
+}
+
+.two-column .item{
+  width: 50%;
+  padding: 0 0.2rem;
+}
+
+.web-page{
+  margin: 0 auto;
+  font-size: 1.7rem;
+  min-height: 500px;
+  max-width: 450px;
+  border: 1px solid #ccc;
+  background: #fefefe;
+  color: #000;
+  width: 100%;
+  text-align: left;
+  padding: 10px 5px;
+}
+.web-page h5{
+  color: #000;
+}
+
+code[rel]:not([rel=""]):before {
+  font-family: Fira Mono;
+  font-style: normal;
+  font-size: .8rem;
+  content: attr(rel);
+  color: #fff;
+  position: absolute;
+  background-color: #eee;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+  padding: 1px;
+  color: #555!important;
+}
+
+@media(max-width: 768px){
+  .btn-print{
+    display: none;
+  }
+}
+
+css{
+  color: #6300C8;
+  color: #4d7e65;
+  color: #b5533c;
+  color: #414141;
+  color: #61BC88;
+  color: #8D6E63;
+  color: #F07268;
+  color: #5E9AC0;
+  color: #F19B2C;
+}

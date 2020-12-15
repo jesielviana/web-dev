@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Git e Github</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+	<link rel="stylesheet" href="lib/css/atom-one-light.css" id="code-theme">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="settings">
+			<button class="btn-print" onclick="printPDF()">
+				<img src="img/print.svg" alt="print">
+			</button>
+			<button class="change-theme" onclick="changeTheme()">
+				<img src="img/color.svg" alt="color">
+			</button>
+		</div>
+		<div class="slides">
+			<section data-background="#4d7e65">
+				<h1 class="text-title">Git e Github</h1>
+				<p class="text-autor">
+					Prof. Jesiel Viana
+				</p>
+				<h3 class="contact">@jesielviana</h3>
+			</section>
+
+			<section data-markdown>
+				## Contexto
+				- O desenvolvimento de software geralmente é realizado em equipe,
+				com a colaboração de vários desenvolvedores,
+				que em muitos casos estão trabalhando em um mesmo projetos de
+				locais e horários diferentes uns dos outros;
+				- Sofware é desenvolvido seguindo o sistema de versões, 1.0, 1.1, 2.0, etc;
+				- Software precisa de manutenção.
+			</section>
+
+			<section data-markdown>
+				## Problema
+				- Como juntar o código de diversos programadores em um mesmo projeto?
+				- E se mais de um programador alterar um mesmo arquivo?
+				- Como separara o código da versão que está em produção da versão que está em desenvolviemnto?
+				- Como manter um histórico de modificações do software, do arquivo?
+				- Como Gerenciar as versões?
+			</section>
+
+			<section data-markdown>
+				## Git
+				Sistema de controle de versão que permite integrar as modificações de diversos colabordores em um única base de
+				código, fazendo o controle de modificações e conflitos. Além disso, cria todo histórico de alterações no código
+				do projeto, permitindo facilmente voltar para qualquer ponto para saber como o código estava naquele momento
+				[1].
+			</section>
+
+			<section data-markdown>
+				## Git
+				É um sistema open-source de controle de versão, sendo o mais utilizado pelos desenvolvedores atualmente. Foi
+				desenvolvido em 2005 por Linus Torvalds, o famoso criador do kernel do sistema operacional Linux [2].
+				[Repositório do Git](https://github.com/git/git)
+			</section>
+
+			<section data-markdown>
+				## Github
+				GitHub é uma plataforma de hospedagem de código (repositórios Git) para controle de versão e colaboração. Ele
+				permite que você e outras pessoas trabalhem juntos em projetos de qualquer lugar [4].
+
+				Além de servir como hospedagem, o Github possui muitas integrações com serviços que auxiliam no deploy da
+				aplicação através de integração contínua [3].
+			</section>
+
+			<section data-markdown data-background="orange">
+				# Principais Comandos
+			</section>
+
+			<section>
+				<h2>init e clone</h2> 
+				<p>Para começar a usar o git para gerenciar as versões de um sistema devemos executar um dos seguintes comandos:
+				init ou clone [5].</p>
+				<p>O comando <b><i>init</i></b> cria um repositório vazio.</p>
+				<pre><code>git init</code></pre>
+				<p>O comando <b><i>clone</i></b>, clona(copia código e histórico) para o diretório corrente um repositório armazenado
+				remotamente, por exemplo: um repositório do GitHub.</p>
+				<pre><code>git clone https://github.com/NOME-USER/NOME-REPO</code></pre>
+			</section>
+
+			<section>
+				<h2>add e commit</h2>
+				<pre><code>git add 'arquivo' ou git add . => '.' = todos os aquivos
+git commit -m "msg"
+				</code></pre>
+				<img src="https://engsoftmoderna.info/figs/capAp/add.svg" alt="Fluxo Git de add e commit">
+				<p><small>Fonte: [5]</small></p>
+			</section>
+
+			<section>
+				<h2>push e pull</h2>
+				<div class="two-column">
+					<div class="item">
+				<p>O comando <b><i>push</i></b> copia os commits mais recentes do repositório local para o repositório remoto.</p>
+				<p>Já para atualizar seu repositório local, os outros desenvolvedores do time devem executar um comando <b><i>pull</i></b> [5].</p>
+				</div>
+				<div class="item">
+				<img style="max-width: 500px;" src="https://engsoftmoderna.info/figs/capAp/push-pull.svg" alt="Fluxo Git de pull e push">
+				<small>Fonte: [5]</small> 
+			</div>
+			</div>
+			</section>
+
+			<section data-markdown>
+				## Glossário Git
+				- **Branch** - ramificação
+				- **Tag** -  é uma marcação que aponta para um momento específico no histórico do Git.
+			</section>
+
+			<section data-markdown="">
+				## Lista de comandos Git
+				[Link](https://gist.github.com/jesielviana/79b444d60933248e649d45e4ebbf0fb5)
+			</section>
+
+			<section data-markdown>
+				## Referências.
+				1. https://git-scm.com/book/pt-br/v2
+				1. https://www.atlassian.com/br/git/tutorials/what-is-git
+				1. https://blog.rocketseat.com.br/iniciando-com-git-github/
+				1. https://guides.github.com/activities/hello-world/
+				1. https://engsoftmoderna.info/capAp.html
+			</section>
+
+			<section data-background="#b5533c">
+				<h1 class="text-title">Git e Github</h1>
+				<h2 class="contact">
+					@jesielviana
+				</h2>
+				<h1 class="text-dark">Fim!</h1>
+			</section>
+		</div>
+	</div>
+	<script src="js/reveal.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

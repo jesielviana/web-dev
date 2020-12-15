@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Introdução a CSS</title>
+	<meta name="description" content="Conheça a liguagem de estilo CSS e entenda como utiliza-la para desenvolvimento de página Web.">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+	<link rel="stylesheet" href="lib/css/atom-one-light.css" id="code-theme">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="settings">
+			<button class="btn-print" onclick="printPDF()">
+				<img src="img/print.svg" alt="print">
+			</button>
+			<button class="change-theme" onclick="changeTheme()">
+				<img src="img/color.svg" alt="color">
+			</button>
+		</div>
+		<div class="slides">
+			<section data-background="#4d7e65">
+				<h1 class="text-title">Introdução a CSS</h1>
+				<p class="text-autor">
+					Prof. Jesiel Viana 
+				</p>
+				<h3 class="contact">@jesielviana</h3>
+			</section>
+
+			<section data-markdown>
+				# Objetivos
+				Conhecer a liguagem de estilo CSS e 
+				entender como utiliza-la para desenvolvimento de página Web.
+			</section>
+
+			<section data-markdown>
+				## Contexto 
+				Páginas Web
+			</section>
+
+			<section data-markdown>
+				## Problema
+				HTML é uma liguagem para estruturação de conteúdo, porém é muito pobre em design.
+				Portanto, como criar páginas Web bonitas, que chamem atenção?
+			</section>
+
+			<section data-markdown>
+				# Cascading Style Sheets - CSS
+			</section>
+
+			<section data-markdown>
+				## O CSS formata a informação entregue pelo HTML. 
+				Essa informação pode ser qualquer coisa: imagem, texto, vídeo, áudio ou qualquer outro elemento criado. 
+			</section>
+
+			<section>
+				<h2>Sintaxe do CSS</h2>
+				<img src="img/aulas/css-sintaxe.png" alt="">
+				<small>{} (chaves) determina o inicio e o fim de um bloco</small>
+				<small>: (dois pontos) separa a propriedade do valor</small><br>
+				<small>; (ponto e vírgula) encerra uma declaração</small><br>
+				<small class="red">Ambos são obrigatórios</small>
+			</section>
+
+			<section data-markdown="">
+				## Vamos praticar!!!
+				Vamos começar melhorando o design visual da página criada na aula anterior\
+				[Link do código HTML da aula anterior](https://github.com/jesielviana/projeto-supervisionado/blob/master/aula-03/index.html)
+			</section>
+
+			<section>
+				<h2>O que vamos fazer?</h2>
+				<p class="blue">Vamos deixar a página com a cor de fundo <b>verde</b> e o texto <b>branco</b></p>
+			
+			</section>
+
+			<section>
+				<h2>Crie um arquivo CSS com o código abaixo</h2>
+				<pre><code rel="estilo.html" class="css" data-trim >
+				body {
+				 background-color: #4d7e65;
+				 color: white;
+				}
+			</code></pre>
+			</section>
+
+			<section>
+				<h2>Como integrar o CSS ao HTML</h2>
+				<p>Importe o arquivo <b><i class="green">estilo.css</i></b> para dentro da página HTML. 
+					A importação deve ser feita dentro da tag <i>&lt;head&gt;</i> do arquivo HTML, conforme abaixo.</p>
+				<pre><code rel="index.html" class="css" data-trim data-line-numbers="5">
+					&lt;!DOCTYPE html&gt;
+					&lt;html&gt;
+					 &lt;head&gt;
+					  ...
+					  <link href="estilo.css" rel="stylesheet"/>
+					 &lt;/head&gt;
+
+					 &lt;body&gt;
+					  ...
+			</code></pre>
+			</section>
+
+			<section>
+				<h3>Deixando nossa página mais bonita com CSS</h3>
+				<pre><code rel="estilo.html" class="css" data-trim >
+					body {
+					 background-color: #4d7e65; /* cor de fundo  */
+					 color: white; /* cor da fonte  */
+					 font-family: Verdana, sans-serif; 	/* fonte do texto  */
+					 font-size: 16px; /* tamanho da fonte  */
+					}
+
+					header {
+					 width: 100%; /* largura do elemento  */
+					 height: 300px; /* altura do elemento  */
+					 border: 1px solid #000; /* largura, tipo e cor da borda do elemento */
+					}
+
+					header img{
+					 width: 200px;
+					 border-radius: 50%;
+					}
+				 
+					main{
+					 min-height: 400px;
+					}
+				 
+					footer{
+					 border: 1px solid #fff; /* largura, tipo e cor da borda do elemento */
+					 height: 100px;
+					 text-align: center;
+					}
+				</code></pre>
+			</section>
+
+			<section data-markdown="">
+				## Atividade
+				1. Escreva o código CSS da sua página conforme o layout do seu rascunho
+				1. Integre o código CSS com a código HTML
+				1. Envie o código CSS e o código HTML da sua página para o Google Classroom
+			</section>
+
+			<section data-markdown="">
+				## Referências
+				- [O que é CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/O_que_e_CSS)
+				- [Sintaxe do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/sintaxe)
+				- [Iniciando com CSS](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Iniciando)
+				- [Propriedades CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference)
+				- [Propriedades CSS (em inglês)](https://www.w3schools.com/css/default.asp)
+				- [Apostila Caelum - Introdução a HTML e CSS](https://www.caelum.com.br/apostila-html-css-javascript/introducao-a-html-e-css/)
+			</section>
+			
+			<section data-background="#b5533c">
+				<h1 class="text-title">Introdução a CSS</h1>
+				<h2 class="contact">
+					@jesielviana
+				</h2>
+				<h1 class="text-dark">Fim!</h1>
+			</section>
+		</div>
+	</div>
+	<script src="js/reveal.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
