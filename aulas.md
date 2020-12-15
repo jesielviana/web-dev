@@ -136,8 +136,8 @@ date: 2020-03-04 21:03:36 +0530
   - <a href="https://developer.mozilla.org/pt-BR/docs/Glossario/Callback_function" target="_blank">Função Callback</a>
   - <a href="https://imasters.com.br/desenvolvimento/gerenciando-o-fluxo-assincrono-de-operacoes-em-nodejs" target="_blank">Gerenciando o fluxo assíncrono de operações em NodeJS</a>
   - <a href="https://medium.com/@alcidesqueiroz/javascript-ass%C3%ADncrono-callbacks-promises-e-async-functions-9191b8272298" target="_blank">JavaScript assíncrono: callbacks, promises e async functions</a>
-- Vídeos: 
-  - <a href="https://www.youtube.com/watch?v=tVYTqsqZHZY" target="_blank">O que é código assíncrono | JavaScript</a> 
+- Vídeos:
+  - <a href="https://www.youtube.com/watch?v=tVYTqsqZHZY" target="_blank">O que é código assíncrono | JavaScript</a>
   - <a href="https://www.youtube.com/watch?v=8o-9nQ3DQEA" target="_blank">Dificuldades em entender callbacks?</a>
   - <a href="https://www.youtube.com/watch?v=7Bs4-rqbCQc" target="_blank">JS Assíncrono: Entenda de vez Callbacks, Promises e Async/Await</a>
 - Atividade em DUPLA: Codificar exemplos de funções assíncronas Javascript utilizando "callback", "Promise" e "async - await". Apresentar o código na próxima aula.
@@ -147,18 +147,18 @@ date: 2020-03-04 21:03:36 +0530
 - Leituras:
   - <a href="http://devfuria.com.br/javascript/dom/" target="_blank">DOM - Document Object Model, by devfuria</a>
   - <a href="https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o" target="_blank">Introdução ao DOM, by MDN</a>
-- Atividades: 
+- Atividades:
   - <a href="https://repl.it/@ProgramaoparaWe/Manipulacao-do-DOM#README.md" target="_blank">Manipulando o DOM HTML com Javascript</a>
   - <a href="https://repl.it/@ProgramaoparaWe/lampada#README.md" target="_blank">Desafio da lâmpada</a>
 
 ### Aula 13: Formulários e integração com APIs
 
 - Leituras:
-  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms" target="_blank">Formulários da Web - Trabalhando com dados do usuário</a> 
-  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form" target="_blank">Como estruturar um formulário HTML</a> 
-  - <a href="https://ux.sapo.pt/usabilidade/web/formularios/" target="_blank">Usabilidade em fomulários</a> 
-  - <a href="https://braziljs.org/artigos/fetch-api-e-o-javascript/" target="_blank">Fetch API e o JavaScript</a> 
-- Atividades: 
+  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms" target="_blank">Formulários da Web - Trabalhando com dados do usuário</a>
+  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form" target="_blank">Como estruturar um formulário HTML</a>
+  - <a href="https://ux.sapo.pt/usabilidade/web/formularios/" target="_blank">Usabilidade em fomulários</a>
+  - <a href="https://braziljs.org/artigos/fetch-api-e-o-javascript/" target="_blank">Fetch API e o JavaScript</a>
+- Atividades:
   - <a href="https://repl.it/@ProgramaoparaWe/frontend-api#README.md" target="_blank">Integrando front-end com API remota</a>
 
 ### Aula 14: Testes automatizados
@@ -170,8 +170,8 @@ date: 2020-03-04 21:03:36 +0530
 - Slides:
   - <a href="https://docs.google.com/presentation/d/1Ks7INkepBrrIamkx0N6sCKoawLiEV7ROpFLco8KLF4w/edit?usp=sharing" target="_blank">Testes automatizados [frontend JS]</a>
 - Vídeos:
-    - <a href="https://www.youtube.com/playlist?list=PLE-5PZOOoVUiEVKU4PrgpESddSlrhYZ7x" target="_blank">Testing+, Curso online do Prof. Paulo Borba da UFPE</a>
-    - <a href="https://www.youtube.com/watch?v=ipE9bsfYEog&t=416s" target="_blank">Cypress (O Teste Front-End Mais Fácil que Você vai Ver) // Dicionário do Programador</a>
+  - <a href="https://www.youtube.com/playlist?list=PLE-5PZOOoVUiEVKU4PrgpESddSlrhYZ7x" target="_blank">Testing+, Curso online do Prof. Paulo Borba da UFPE</a>
+  - <a href="https://www.youtube.com/watch?v=ipE9bsfYEog&t=416s" target="_blank">Cypress (O Teste Front-End Mais Fácil que Você vai Ver) // Dicionário do Programador</a>
 - Atividades:
   - Configurar o Jest e Cypress nos projetos de cada equipe e desenvolver pelo menos um teste de unidade e um teste e2e.
 
@@ -189,7 +189,10 @@ date: 2020-03-04 21:03:36 +0530
 
 - Leituras:
   - [Cartilha de segurança na Web](https://cartilha.cert.br/)
+  - <a href="https://wiki.owasp.org/images/0/06/OWASP_Top_10-2017-pt_pt.pdf" target="_blank">OWASP Top 10</a>
+  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/Security/Securing_your_site" target="_blank">Deixando seu site seguro</a>
 - Slides:
-- Atividades:
+  - <a href="https://docs.google.com/presentation/d/1kee1kgLRMNNBlIRcH3XnYpXar3dutENL8BZkpUA0qDc/edit?usp=sharing" target="_blank">Segurança na Web</a>
+- Atividades: Implementar as dicas de segurança na Web apresentadas nos slides em seus respectivos projetos.
 
 <!-- <a href="" target="_blank"></a> -->
