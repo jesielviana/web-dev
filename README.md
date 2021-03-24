@@ -9,3 +9,4 @@ Acesse o curso no link: [https://jesielviana.github.io/web-dev/](https://jesielv
 
 Tamplate utilizado no site [https://github.com/samarsault/plainwhite-jekyll](https://github.com/samarsault/plainwhite-jekyll)
  
+By [@jesielviana](https://twitter.com/jesielviana)
