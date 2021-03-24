@@ -1,6 +1,6 @@
 # Material do Curso Programação Para Web
 
-## IFPI Campus Picos
+## Curso de ADS do IFPI Campus Picos
 
 ### Prof. Jesiel Viana
 
